@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+header {
+    background: url(../img/background.jpg) no-repeat center top / cover;
+    height: 100%;
+}
+.container {
+    width: 60%;
+    border: 10px;
+    margin: 0 auto;
+}
+.container1 {
+    width: 90vh;
+    border: 10px;
+    margin: 0 auto;
+}
+.container2 {
+    width: 90%;
+    border: 10px;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+.logo {
+    margin-top: 20px;
+    width: 25%;
+	height: 30%;
+}
+nav {
+    float: right;
+    margin-top: 70px;
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.gradient-text {
+    font-family: 'segoe print', sans-serif;
+    font-size: 70%;
+    text-transform: none;
+    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 15px auto;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 80px;
+}
+.menu a {
+    text-transform: uppercase;
+    font-size: 70%;
+    display: inline-block;
+    width: 90%;
+    padding: 3px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+.title1 {
+    font-size: 40px;
+    color: #4C9141;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+}
+h3 {
+    font-size: 30px;
+    color: #228B22;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+.knopka {
+    background: #4b0082;
+    color: #7d8471;
+    border-radius: 25px;
+    display: block;
+    width: 20%;
+    padding: 2% 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 55%;
+    margin-top: 10%;
+}
+.knopka2 {
+    background: #0D61BC;
+    color: #ffffff;
+    border-radius: 25px;
+    display: block;
+    width: 100px;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.title {
+    padding-top: 5%;
+}
+.title h2 {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #0D61BC;
+}
+.title p {
+    color: #456354;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    line-height: 1.55em;
+    font-family: 'comic sans ms', sans-serif;
+}
+.masters {
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.masters__face {
+    width:  400px;
+    float: left;
+    text-align: center;
+}
+.masters__face h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+ }
+.masters__face p {
+    color: #7d8471;
+    font-size: 25px;
+    line-height: 1.55em;
+    text-transform: none;
+    font-family: 'comic sans ms', sans-serif;
+ }
+.masters__face:last-child {
+    float: right;
+ }
+#works {
+    background: #470736;
+}
+.works img {
+    float: left;
+    width: 450px;
+	height: 550px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.works {
+    padding-top: 3%;
+    margin-left: 5%;
+}
+.danie {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 0px;
+}
+.title2 {
+    color: #456354;
+    text-align: right;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'comic sans ms', sans-serif;
+}
